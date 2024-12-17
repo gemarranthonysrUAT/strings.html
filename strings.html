@@ -1,0 +1,45 @@
+<!DOCTYPE html><!--GEMARR ANTHONY PEACOCK SR.-->
+<html lang="en"><!-- .-->
+<head><!-- .-->
+    <meta charset="UTF-8"><!-- .-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- .-->
+    <title>CSC102 Palindrome Ckecker</title><!-- .-->
+    <link rel="stylesheet" href="styles.css"><!--link to CSS file.-->
+    <script src="script.js"> 
+     function myFunction(level) {
+
+        var str = prompt("Please enter a string:", "Sample String");
+
+        if (str == null || str == "") {
+
+          document.getElementById("demo").innerHTML = "User cancelled the prompt.";
+
+        } else {
+
+          document.getElementById("demo").innerHTML = "You entered: " + str;
+
+        }
+
+      }  
+    </script><!--link to javaScript file .-->
+</head>
+<body><!-- .-->
+  <header>
+    <hr>Palindrome Checker</h1> 
+  </header>
+  <main>
+    <form id="palindromeForm">
+      <label for="inputSting">Enter a word or phrase:</label>
+      input type="text" id="inputString" name="inputString" required:
+    
+    <button type="submit">Check Palindrome</button>
+    </form>
+    <div id="result"</div> 
+  </main>
+  <footer>
+    <p>Programming with heart for AI Learning</p>
+  </footer>
+
+ 
+</body><!-- .-->
+</html>
